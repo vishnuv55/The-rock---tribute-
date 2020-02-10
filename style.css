@@ -17,7 +17,7 @@ body {
     background-color: var(--primary);
     color: var(--tertiary);
     line-height: 1.9em;
-    font-family: sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;;
 }
 
 /* common styles */
@@ -113,10 +113,17 @@ body {
 }
 
 .image-1 {
-    width: 40vw;
-    margin-top: 45px;
+    width: 37vw;
+    margin-top: 34px;
+    justify-self: center;
+    align-items: center;
 }
-
+#img-caption{
+    text-align: center;
+    color: var(--secondary);
+    text-transform: uppercase;
+    padding-left: 4vw;
+}
 #title{
     font-size: 50px;
     color: var(--secondary);
@@ -194,11 +201,11 @@ body {
     }
     .nav-links{
         flex-direction: column;
-        padding-top: 40px;
+        padding-top: 50px;
         
     }
     .nav-link{
-        padding-top: 20px;
+        padding-top: 50px;
     }
     
     .section-1{
